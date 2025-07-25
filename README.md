@@ -1,34 +1,35 @@
-# Azure AD + Amazon Cognito Authentication (Node.js)
+# Azure AD + Amazon Cognito 認証 (Node.js)
 
-## Requirements Met
+## 要件を満たしています
 
-- Login with Azure AD via Cognito Hosted UI
-- Callback handled locally
-- ID Token, Access Token retrieved
-- User info retrieved from access token
-- Session maintained via express-session
-- Display user attributes on dashboard
+- Cognito ホスト UI 経由で Azure AD にログイン
+- コールバックがローカルで処理されます
+- ID トークンとアクセス トークンが取得されます
+- アクセス トークンからユーザー情報が取得されます
+- Express-Session 経由でセッションが維持されます
+- ダッシュボードにユーザー属性が表示されます
 
-## How to Run
+## 実行方法
 
-1. Clone the project
-2. Create a `.env` file with the following:
+1. プロジェクトのクローンを作成する https://github.com/Dilkhush309/cognito-saml-login.git
+2. 以下の内容で `.env` ファイルを作成します。
 
-```env
-COGNITO_DOMAIN=...
-CLIENT_ID=...
-CLIENT_SECRET=...
-REDIRECT_URI=...
+```env を Slack DM で共有します。
+COGNITO_DOMAIN=
+CLIENT_ID=
+CLIENT_SECRET=
+REDIRECT_URI=
+
 AZURE_TENANT_ID=
 AZURE_CLIENT_ID=
 AZURE_CLIENT_SECRET=
 
 
-## Install dependencies
+## Dependenciesをインストール
 npm install
 
-## Run the server
+## サーバーを実行する
 node index.js
 
-## Open in browser
+## ブラウザで開く
 http://localhost:3000/login
