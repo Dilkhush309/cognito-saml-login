@@ -12,9 +12,9 @@
 ## 実行方法
 
 1. プロジェクトのクローンを作成する https://github.com/Dilkhush309/cognito-saml-login.git
-2. 以下の内容で `.env` ファイルを作成します。
+2. 以下の内容で `.env` ファイルを作成します。.env を Slack DM で共有します。
 
-```env を Slack DM で共有します。
+```env
 COGNITO_DOMAIN=
 CLIENT_ID=
 CLIENT_SECRET=
