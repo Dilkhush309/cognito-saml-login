@@ -1,0 +1,21 @@
+{
+  "name": "cognito-saml-login",
+  "version": "1.0.0",
+  "description": "Cognito SAML Login Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.16.1",
+    "openid-client": "^5.7.0"
+  }
+}
